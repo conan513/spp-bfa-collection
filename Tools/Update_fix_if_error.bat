@@ -11,7 +11,7 @@ taskkill /f /im spp-httpd.exe
 taskkill /f /im node.exe
 cls
 echo #######################################################
-echo # Single Player Project - Server Launcher              #
+echo # Single Player Project - BFA Server Collection       #
 echo # https://www.patreon.com/conan513                    #
 echo #######################################################
 echo.

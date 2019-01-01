@@ -7,7 +7,7 @@ set mainfolder=%CD%
 :menu
 cls
 echo #######################################################
-echo # Single Player Project - Server Launcher              #
+echo # Single Player Project - BFA Server Collection       #
 echo # https://www.patreon.com/conan513                    #
 echo #######################################################
 echo.
@@ -16,14 +16,16 @@ echo 2 - Start TrinityCore (compiled from official TC repo)
 echo.
 set /P menu=Enter a number: 
 if "%menu%"=="1" (goto CypherCore)
-if "%menu%"=="2" (goto bestcore)
+if "%menu%"=="2" (goto TrinityCore)
 
 :CypherCore
+cls
 cd "%mainfolder%\spp-bfa-collection"
 2_CypherCore.bat
 exit
 
 :TrinityCore
+cls
 cd "%mainfolder%\spp-bfa-collection"
 2_TrinityCore.bat
 exit

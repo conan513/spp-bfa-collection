@@ -12,7 +12,7 @@ taskkill /f /im node.exe
 :menu
 cls
 echo #######################################################
-echo # Single Player Project - Server Updater              #
+echo # Single Player Project - BFA Server Collection       #
 echo # https://www.patreon.com/conan513                    #
 echo #######################################################
 echo.
