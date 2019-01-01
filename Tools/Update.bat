@@ -42,7 +42,11 @@ cd "%mainfolder%\%installpath%"
 echo.
 echo Add realm settings to git system...
 echo.
-..\git\cmd\git.exe add Realms
+..\git\cmd\git.exe add "/Server/CypherCore/BNetServer.conf"
+..\git\cmd\git.exe add "/Server/CypherCore/WorldServer.conf"
+..\git\cmd\git.exe add "/Server/TrinityCore/bnetserver.conf"
+..\git\cmd\git.exe add "/Server/TrinityCore/worldserver.conf"
+
 ..\git\cmd\git.exe commit -m "Custom Changes"
 
 echo.
