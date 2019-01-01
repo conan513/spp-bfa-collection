@@ -8,6 +8,11 @@ echo # Single Player Project - BFA Server Collection       #
 echo # https://www.patreon.com/conan513                    #
 echo #######################################################
 echo.
+if exist "%mainfolder%\Database\Bin\mysqld.exe goto start_server
+"%mainfolder%\Tools\7za.exe" e -y -spf "%mainfolder%\Tools\Database.7z.001"
+goto start_server
+
+:start_Server
 cd "%mainfolder%\Server\TrinityCore"
 echo Starting bnetserver...
 start bnetserver.exe
