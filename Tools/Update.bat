@@ -48,7 +48,7 @@ echo.
 echo.
 echo Downloading the latest %name% update...
 echo.
-..\git\cmd\git.exe pull https://github.com/conan513/spp-legion-patch.git %branch%
+..\git\cmd\git.exe pull https://github.com/conan513/spp-bfa-collection.git %branch%
 echo.
 cd "%mainfolder%"
 copy "%mainfolder%\%installpath%\Tools\Update_fix_if_error.bat" . /Y
