@@ -4,6 +4,18 @@ TITLE %NAME%
 COLOR 06
 set mainfolder=%CD%
 
+:database_check
+if exist "%mainfolder%\spp-bfa-collection\Database\Bin\mysqld.exe" goto database_start
+cd "%mainfolder%\spp-bfa-collection"
+"%mainfolder%\spp-bfa-collection\Tools\7za.exe" e -y -spf "%mainfolder%\spp-bfa-collection\Tools\Database.7z.001"
+goto database_check
+
+:database_start
+cls
+cd "%mainfolder%\spp-bfa-collection"
+start "" /min "1_Database.bat"
+goto menu
+
 :menu
 cls
 echo #######################################################

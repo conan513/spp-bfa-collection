@@ -9,9 +9,11 @@ echo # Single Player Project - BFA Server Collection       #
 echo # https://www.patreon.com/conan513                    #
 echo #######################################################
 echo.
+
+:database_check
 if exist "%mainfolder%\Database\Bin\mysqld.exe" goto start_server
 "%mainfolder%\Tools\7za.exe" e -y -spf "%mainfolder%\Tools\Database.7z.001"
-goto start_server
+goto database_check
 
 :start_server
 cd "%mainfolder%\Server\CypherCore"
