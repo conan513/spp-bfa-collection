@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.1/win10-x64",
+    "name": ".NETCoreApp,Version=v2.1/win-x64",
     "signature": "6c5b3740acb5d452f2cdcf55942eb9f174d33cd2"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {},
-    ".NETCoreApp,Version=v2.1/win10-x64": {
+    ".NETCoreApp,Version=v2.1/win-x64": {
       "BNetServer/1.0.0": {
         "dependencies": {
           "Framework": "1.0.0",
