@@ -47,5 +47,5 @@ exit
 :ashamanebfa
 cls
 cd "%mainfolder%\spp-bfa-collection"
-3_AshamaneBFA-CoreTeaM.bat
+3_CoreTeaM.bat
 exit
