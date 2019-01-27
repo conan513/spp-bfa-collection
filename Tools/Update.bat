@@ -46,6 +46,8 @@ echo.
 ..\git\cmd\git.exe add "./Server/CypherCore/WorldServer.conf"
 ..\git\cmd\git.exe add "./Server/TrinityCore/bnetserver.conf"
 ..\git\cmd\git.exe add "./Server/TrinityCore/worldserver.conf"
+..\git\cmd\git.exe add "./Server/AshamaneBFA/Settings//login.conf"
+..\git\cmd\git.exe add "./Server/AshamaneBFA/Settings//world.conf"
 
 ..\git\cmd\git.exe commit -m "Custom Changes"
 cls
