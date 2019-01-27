@@ -25,10 +25,12 @@ echo #######################################################
 echo.
 echo 1 - Start CypherCore (a fork from @zgn)
 echo 2 - Start TrinityCore (compiled from official TC repo)
+echo 3 - Start AshamaneCore BFA port (thanks to CoreTeaM and @zgn)
 echo.
 set /P menu=Enter a number: 
 if "%menu%"=="1" (goto CypherCore)
 if "%menu%"=="2" (goto TrinityCore)
+if "%menu%"=="2" (goto ashamanebfa)
 
 :CypherCore
 cls
@@ -40,4 +42,10 @@ exit
 cls
 cd "%mainfolder%\spp-bfa-collection"
 2_TrinityCore.bat
+exit
+
+:ashamanebfa
+cls
+cd "%mainfolder%\spp-bfa-collection"
+3_AshamaneBFA-CoreTeaM.bat
 exit
