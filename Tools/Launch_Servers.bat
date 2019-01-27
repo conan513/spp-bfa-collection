@@ -30,7 +30,7 @@ echo.
 set /P menu=Enter a number: 
 if "%menu%"=="1" (goto CypherCore)
 if "%menu%"=="2" (goto TrinityCore)
-if "%menu%"=="2" (goto ashamanebfa)
+if "%menu%"=="3" (goto ashamanebfa)
 
 :CypherCore
 cls
